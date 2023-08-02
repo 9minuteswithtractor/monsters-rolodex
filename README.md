@@ -10,5 +10,4 @@
      Productive coding everyone,
      Peter Vilsons
 
-# Update:
-     app_preview:  https://petervil-react-rolodex.netlify.app/
+     app_preview:  <a>https://petervil-react-rolodex.netlify.app/</a>
