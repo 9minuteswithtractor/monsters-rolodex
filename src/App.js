@@ -1,14 +1,17 @@
+/**
+ * some changes here ...
+ */
 // seting up Class components
 //===============================================================
 // 1) React renders on MOUNT
 // 2) React re-renders whenever props are changed
 // 3) React re-renders whenever setState function is called
 //===============================================================
-import { Component } from "react";
+import { Component } from 'react';
 
-import CardList from "./components/card-list/card-list.component";
-import SearchBox from "./components/search-box/search-box.component";
-import "./App.css";
+import CardList from './components/card-list/card-list.component';
+import SearchBox from './components/search-box/search-box.component';
+import './App.css';
 
 class App extends Component {
   // ORDER : Constructor function will run FIRST
@@ -22,7 +25,7 @@ class App extends Component {
       // null state ... no users -> showing empty array in case of error
       monsters: [],
       // adding searchField to our state
-      searchField: "",
+      searchField: '',
     };
   }
   // ===================================================
@@ -57,7 +60,7 @@ class App extends Component {
 
   componentDidMount() {
     // we gonna fetch the data from this API
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch('https://jsonplaceholder.typicode.com/users')
       // if success:
       // to see response object in console:
       // .then((response) => console.log(response))
